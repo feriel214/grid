@@ -1,0 +1,46 @@
+.conatiner{
+    display: grid;
+    grid-template-areas:
+    'header header header'
+    'hero hero hero'
+    'menu main main'
+    'menu banner banner'
+    'menu content1 content2';
+}
+.main{
+    grid-area: main;
+    background-color: bisque;
+    padding: 10px;
+}
+.header{
+    background-color: blue;
+    grid-area: header;
+    padding: 10px;
+}
+.hero{
+    background-color: turquoise;
+    grid-area: hero;
+}
+
+.menu{
+    background-color: hotpink;
+    grid-area: menu;
+    padding: 10px;
+}
+.banner{
+    background-color: yellowgreen;
+    grid-area: banner;
+    padding: 10px;
+}
+
+.content1{
+    background-color: aquamarine;
+    grid-area: content1;
+    padding: 10px;
+}
+
+.content2{
+    background-color: rgb(29, 156, 1146, 114);
+    grid-area: content2;
+    padding: 10px;
+}
